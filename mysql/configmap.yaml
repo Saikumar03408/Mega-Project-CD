@@ -4,4 +4,4 @@ metadata:
   name: mysql-config
   namespace: webapps
 data:
-  MYSQL_DATABASE: "bankapp"
+  MYSQL_DATABASE: "bankappdb"

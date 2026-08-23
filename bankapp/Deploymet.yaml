@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: bankapp
-          image: saikumar0803/bankapp:v10
+          image: saikumar0803/bankapp:v16
 
           resources:
             requests:
@@ -38,7 +38,7 @@ spec:
 
           env:
             - name: SPRING_DATASOURCE_URL
-              value: "jdbc:mysql://mysql-svc:3306/bankapp?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true"
+              value: "jdbc:mysql://mysql-svc:3306/bankappdb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true"
 
             - name: SPRING_DATASOURCE_USERNAME
               value: root
