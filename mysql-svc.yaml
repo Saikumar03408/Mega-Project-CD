@@ -8,4 +8,4 @@ spec:
     app: db
   ports:
   - port: 3306
-    containerPort: 3306
+    targetPort: 3306
